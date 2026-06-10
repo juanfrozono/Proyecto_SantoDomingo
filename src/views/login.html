@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Login-Ingresar</title>
+</head>
+<body>
+    <nav>
+        <img id="logo" src="/images/logo_teto.webp" alt="Logo de teto">
+    </nav>
+
+    <main>
+        <section id="seccion-de-login">
+            <h2>Iniciar Sesión</h2>
+            <form action="/login" method="POST">
+                <label for="nombre-login">Nombre de Usuario:</label>
+                <input type="text" name="nombre" id="nombre-login" required>
+                
+                <label for="login-contrasena">Contraseña:</label>
+                <input type="password" name="contrasena" id="login-contrasena" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+        
+
+
+        <section id="seccion-de-registro">
+            <h2>Registrarse</h2>
+            <form action="/registro" method="POST">
+                <label for="reg_nombre">Nombre de Usuario:</label>
+                <input type="text" name="nombre" id="reg_nombre" required>
+                
+                <label for="reg_contrasena">Contraseña:</label>
+                <input type="password" name="contrasena" id="reg_contrasena" required>
+
+                <button type="submit">Confirmar-Registro</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Juan Jerez</p>
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>

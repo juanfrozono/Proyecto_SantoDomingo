@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background-color: green;
+  margin: 0;
+  padding: 0;
+  color:black;
+}
+
+nav {
+  background-color:lime;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+#titulo {
+  color: black;
+  font-size: 32px;
+}
+
+section {
+  background-color:#f123;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius:7px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  background-color:lightgreen;
+}
+
+footer {
+  background-color: lightgreen;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
